@@ -1,8 +1,8 @@
 databases:
   - name: micronaut
     ipAllowList: []
-    databaseName: micronaut
-    user: micronaut_user
+    databaseName: micronaut_5bw7
+    user: micronaut_5bw7_user
 
 services:
   - type: web
