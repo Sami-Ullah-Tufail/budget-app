@@ -43,11 +43,11 @@ Ruby on Rails, Visual Studia Code, WSL
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://sami-budget-app.onrender.com)
 
 ## 🚀 Presentation <a name="video-presentation"></a>
 
-- [Presentation Link]()
+- [Presentation Link](https://www.loom.com/share/6e32080e5d6340ffb96f69bfca664679?sid=3aba6d0d-dfd5-47b2-bfc6-2326bab17347)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
