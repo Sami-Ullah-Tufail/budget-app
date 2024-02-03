@@ -21,6 +21,190 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+  --primary-color: #3370b3;
+  --primary-background: #f5f6f8;
+  --text-color: #434b54;
+  --button-bg: #60b524;
+}
+
+body {
+  background-color: var(--primary-background);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.title-screen {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  font-weight: 800;
+  font-family: "Nova script", sans-serif;
+}
+
+.register-container {
+  margin-top: 24px;
+  background-color: #fff;
+  z-index: 3;
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  padding: 16px;
+}
+
+.profile-pic {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--text-color);
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.full-name {
+  border-left: none;
+  border-right: none;
+  padding: 12px 0 12px 12px;
+  width: 98%;
+  margin-bottom: 18px;
+}
+
+.submit-button {
+  text-align: center;
+  width: 99%;
+  background-color: var(--primary-color);
+  padding: 12px;
+  color: #fff;
+}
+
+.login {
+  margin-top: 12px;
+}
+
+.profile-icon {
+  border-radius: 100%;
+  border: 1px solid var(--text-color);
+  padding: 8px;
+  background-color: #babfc5;
+  font-size: 8px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: end;
+  margin-right: 4px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  color: #fff;
+}
+
+.welcome-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  width: 98%;
+  bottom: 0;
+}
+
+.welcome-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 0;
+  background-color: var(--primary-color);
+  width: 98%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.link-cat,
+a {
+  color: #000;
+}
+
+.add-link,
+a {
+  text-decoration: none;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 0 4px;
+  color: #fff;
+}
+
+.register-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+a > .fas {
+  color: #fff;
+}
+
+.category-title {
+  text-align: center;
+}
+
+.link-container {
+  padding: 18px 0;
+  background-color: #60b524;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.add-link {
+  display: flex;
+  border: 1px solid #fff;
+  padding: 12px 0;
+  background-color: var(--button-bg);
+  border-radius: 4px;
+  color: #fff;
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.category-item {
+  text-align: center;
+}
+
+.form-group {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid var(--text-color);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 18px;
+  gap: 12px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 nav {
   display: flex;
   justify-content: right;
@@ -134,33 +318,6 @@ input {
   padding: 0.5em;
 }
 
-.splash {
-  position: absolute;
-  top: 35%;
-  right: 0;
-  left: 0;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2em;
-}
-
-.sign-in,
-.sign-up {
-  padding: 0.5em;
-  border-radius: 10px;
-}
-
-.sign-in {
-  background: #3778c2;
-}
-
-.sign-up {
-  background: #5fb523;
-}
-
 .notice,
 .alert {
   background: #3778c2;
@@ -175,4 +332,16 @@ input {
 .category a {
   color: #8f98aa;
   font-weight: 600;
+}
+
+.welcome-sign {
+  padding: 12px;
+}
+
+.welcome-sign > a {
+  color: var(--text-color);
+}
+
+.welcome-login > a {
+  color: #fff;
 }
